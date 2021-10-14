@@ -1,9 +1,5 @@
 /*Man te nedarbojas ja ieliku, es meginaju salabot daudzas reizes bet nekas neradijas*/
 
-table, th, td {
-  border: 3px solid rgb(4, 0, 255);
-  font-family: "Times New Roman";
-}
 img {
   border-radius: 25px;
   border-style: dotted;
@@ -21,4 +17,24 @@ font-weight: bold;
 }
 body {
   background-color: lightgreen;
+  background-image: var(--bs-gradient);
 }
+
+/*table, th, td {
+  border: 5px solid rgba(0, 0, 255, 0.842) ;
+  border-style: double;
+  width: 0%;
+  height: 50px;
+}
+Nedarbojas prieks kautkada iemesla, bet ja ieliku html <style> uzreiz darbojas*/
+
+.boot {
+  border: 5px solid rgba(0, 0, 255, 0.842) ;
+  border-style: double;
+  width: 0%;
+  height: 50px;
+  font-family: "Times New Roman";
+}
+/*sitais ir ka es izdomaju to salabot, ja es pieliku visam class uzreiz viss aizgaja un darbojas ka domats, nezinu kapec ar table, th, td toties
+nerdarbojas, un tas table, th, td nedarbojas tikai ja bija css dokumenta, bet ja bija html <style> tad vins darbojas, un ari font-weight: bold;
+nedarbojas css, bet darbojas ja pievienoju klat pie header style html dokumenta, tapec es to tur pievienoju*/

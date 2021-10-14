@@ -1,0 +1,24 @@
+/*Man te nedarbojas ja ieliku, es meginaju salabot daudzas reizes bet nekas neradijas*/
+
+table, th, td {
+  border: 3px solid rgb(4, 0, 255);
+  font-family: "Times New Roman";
+}
+img {
+  border-radius: 25px;
+  border-style: dotted;
+  border-color: red;
+}
+.header {
+text-align: right;
+color: yellow;
+font-size: 15px;
+font-family: "Times New Roman";
+font-weight: bold;
+}
+.numbered {
+  font-family: "Times New Roman";
+}
+body {
+  background-color: lightgreen;
+}
